@@ -1,4 +1,4 @@
-package com.heaven.io;
+package java.io.examples;
 
 import java.io.File;
 import java.io.FileWriter;

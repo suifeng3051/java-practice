@@ -12,9 +12,7 @@ import java.util.concurrent.Future;
 public class DateFormatThreadSafe {
 	final static  SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd");
 	public static void main(String[] args) throws Exception {
-
 		
-
 		Callable<Date> task = new Callable<Date>() {
 			public Date call() throws Exception {
 				return format.parse("20101022");
